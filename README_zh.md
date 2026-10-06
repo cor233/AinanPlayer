@@ -1,18 +1,19 @@
 <div align="center">
 
-# <img src="docs/images/logo.png" width="38" height="38" align="absmiddle" alt="Logo" /> CatPawPlayer (AinanPlayer)
+# <img src="docs/images/logo.png" width="38" height="38" align="absmiddle" alt="Logo" /> AinanPlayer
 ### 现代化 Windows 11 影视聚合与 4K 超清硬件加速播放平台
 
-[![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6?style=flat-square&logo=windows)](https://github.com/Ainanya21/CatPawPlayer)
-[![Framework](https://img.shields.io/badge/UI-WinUI%203%20%2F%20Windows%20App%20SDK%201.6-8860D0?style=flat-square&logo=microsoft)](https://github.com/Ainanya21/CatPawPlayer)
+[![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6?style=flat-square&logo=windows)](https://github.com/Ainanya21/AinanPlayer)
+[![Framework](https://img.shields.io/badge/UI-WinUI%203%20%2F%20Windows%20App%20SDK%201.6-8860D0?style=flat-square&logo=microsoft)](https://github.com/Ainanya21/AinanPlayer)
 [![.NET](https://img.shields.io/badge/.NET-8.0%20LTS-512BD4?style=flat-square&logo=dotnet)](https://dotnet.microsoft.com/)
-[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-2CA5E0?style=flat-square&logo=telegram)](https://t.me/CatPawPlayer)
-[![Telegram Group](https://img.shields.io/badge/Telegram-Group-2CA5E0?style=flat-square&logo=telegram)](https://t.me/CatPawPlayerChat)
+[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-2CA5E0?style=flat-square&logo=telegram)](https://t.me/AinanPlayer)
+[![Telegram Group](https://img.shields.io/badge/Telegram-Group-2CA5E0?style=flat-square&logo=telegram)](https://t.me/AinanPlayerChat)
+[![Official Website](https://img.shields.io/badge/官网主页-ainanya21.github.io%2FAinanPlayer-2D7CF7?style=flat-square&logo=googlechrome&logoColor=white)](https://ainanya21.github.io/AinanPlayer/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
 🌐 **[English](README.md)** | **[简体中文](README_zh.md)**
 
-[**下载体验**](#下载与安装) • [**使用指南**](docs/USER_GUIDE.md) • [**界面预览**](#界面预览) • [**核心亮点**](#核心亮点) • [**环境要求**](#运行环境要求) • [**配置中心**](#配置中心与网盘授权) • [**社区交流**](#交流与社区反馈) • [**免责声明**](#免责声明) • [**支持项目**](#支持项目) • [**来源与许可**](#来源与许可)
+🌍 [**官方网站**](https://ainanya21.github.io/AinanPlayer/) • [**下载体验**](#下载与安装) • [**使用指南**](docs/USER_GUIDE.md) • [**界面预览**](#界面预览) • [**核心亮点**](#核心亮点) • [**环境要求**](#运行环境要求) • [**配置中心**](#配置中心与网盘授权) • [**媒体服务器**](#媒体服务器配置与使用) • [**社区交流**](#交流与社区反馈) • [**免责声明**](#免责声明) • [**支持项目**](#支持项目) • [**来源与许可**](#来源与许可)
 
 </div>
 
@@ -32,6 +33,16 @@
 
 <br/>
 
+### 演职员表与智能相似内容推荐 (全方位影视元数据与沉浸式卡片)
+![演职员与推荐](docs/images/screenshot_detail_2.png)
+
+<br/>
+
+### IPTV 电视直播与央卫视节目流 (支持自定义 M3U/TXT 订阅与实时 EPG)
+![电视直播](docs/images/screenshot_live.png)
+
+<br/>
+
 ### 外观与个性化主题配置 (深浅主题无缝切换与强调色拾色器)
 ![外观设置](docs/images/screenshot_settings.png)
 
@@ -46,17 +57,32 @@
 
 ## 核心亮点
 
-* **原生 WinUI 3 + Fluent 2 视觉体系**：基于微软最新 Windows App SDK 1.6 与 Mica / Acrylic 材质构建，支持全功能浅色/深色/跟随系统的主题实时无缝切换。
+* **原生 WinUI 3 + Fluent 2 视觉体系**：
+  * 基于微软最新 Windows App SDK 1.6 与 Mica / Acrylic 材质构建，支持浅色/深色/跟随系统的主题实时无缝切换。
+  * **全新品牌图标与多风格自定义切换**：官方默认换新为基于超椭圆（$n=4.8$）打造的高精度「经典蔚蓝」矢量质感图标；设置中支持在「经典蔚蓝」、「幻彩粉紫」、「曜石银黑」、「霓虹暗夜」4 款个性化图标风格间一键实时热切换，任务栏与标题栏即刻响应。
+* **原生主流媒体服务器集成（Emby / Jellyfin / Plex）**：
+  * **私有库与全网聚合无缝融合**：原生支持接入 Emby、Jellyfin、Plex 自建媒体服务器，轻松浏览自建影视库、剧集季集、继续观看与最新入库内容。
+  * **毫秒级跨源并发聚合搜索**：全网聚合搜索时，私有媒体服务器与在线网络源并行异步并发检索，自建服资源毫秒级秒出，优先呈现。
+  * **原画无损直接流与双向进度同步**：MPV 硬件加速引擎直连播放，完整保留 4K HDR、杜比视界、多音轨及内嵌字幕；实时双向同步观看历史与播放进度。
+  * **图标源订阅与自定义换标**：内置官方精致品牌图标，支持导入 Quantumult X / Loon / 离歌 / 恩秀等第三方图标库订阅，支持图标搜索与可视化自由选标。
 * **多引擎万能爬虫架构（Universal Multi-Engine Spider）**：
   * 支持 **王二小放牛娃猫源**（`9988`）、**豆源**（`2333`）、以及统一控制网关（`9980`）。
   * 完美支持 `.js.md5`、Base64 加密订阅、标准 TVBox JSON 仓库以及单 CMS 接口的动态自动识别、热下载与多端口隔离加载。
-* **双播放内核与 4K HDR 硬件加速**：
-  * **Yaozhi-MPV 极速播放**：支持调用外部 MPV 高性能解码器，享受 4K UHD、HEVC/H.265、杜比视界（Dolby Vision）及 120FPS 极限硬件加速。
-  * **内置离线 HLS 原生播放引擎**：内嵌完整的离线 `hls.min.js`，零外部 CDN 依赖，启动秒开，断网或离线环境下无障碍播放。
+* **播放引擎双模式架构（内置开箱即用 + 外置自由定制）**：
+  * **内置便携版 Yaozhi-MPV 极速硬件加速**：自带独立内置便携版 [Yaozhil/mpv-Yaozhi](https://github.com/Yaozhil/mpv-Yaozhi) 运行内核（`runtime/mpv/mpv.exe`），无需安装任何第三方播放器或复杂配置，安装解压后开箱即享 4K UHD、HEVC/H.265、杜比视界（Dolby Vision）与 60/120FPS 超高刷新率硬件解码。
+  * **外置自定义 Yaozhi-MPV 发烧扩展**：同样基于 [Yaozhil/mpv-Yaozhi](https://github.com/Yaozhil/mpv-Yaozhi) 生态，支持自定义指定本地外部 `mpv.exe` 路径，完整继承用户专属的 `mpv.conf` 配置、Anime4K / FSRCNNX 等超分辨率着色器与 Lua 插件脚本。统一在「设置」中全局开关控制。
 * **内嵌原生配置中心**：
   * 深度集成扫码与授权控制台，无需跳出浏览器，直接在应用内完成夸克、UC、阿里、百度、115 等网盘账号的扫码授权与转存配置。
 * **智能媒体流元数据实时探针**：
   * 自动侦测媒体流的分辨率、视频编码、音频编码、网络延迟以及多码率分片轨道，在播放详情页即时呈现 4K / 1080P / HDR / 杜比全景声 徽章。
+* **轻量级 IPTV 电视直播与 EPG 节目预告**：
+  * 顶部导航原生集成「直播」专区，用户可自由导入在线 M3U / TXT 直链或本地播放列表，绝无内置第三方流，纯净合规。
+  * 智能按央视、卫视、各省地方、高清专区自动分类，自动匹配频道高清台标。
+  * 支持实时拉取 EPG 电子节目预告，换台前预览当前与即将播出节目单与播放进度。
+  * 深度整合 WebView2 极速内嵌播放与 MPV 独立窗口硬件加速双内核秒播，智能防断流重连。
+* **全景通顶沉浸视界与半透明毛玻璃导航胶囊**：
+  * 首页大卡片与影视详情页背景全景通顶延伸至顶栏窗口边界，打破传统窗口分割。
+  * 顶部居中导航胶囊采用高通透度模糊毛玻璃（Mica / Acrylic）材质，悬浮过渡自然，营造纯粹大屏沉浸体验。
 * **全网聚合搜索与多维分类筛选**：
   * 支持跨源异步并发聚合搜索与多级分类展开筛选，一键检索全网优质资源。
 
@@ -66,18 +92,18 @@
 
 * **操作系统**：Windows 10（1809 / 17763 及以上）或 Windows 11（64位）
 * **依赖环境**：安装包已自包含全部运行依赖，解压或安装后即开即用（无需额外安装运行库）
-* **外部播放器（可选）**：如需开启 MPV 极速硬件加速，可搭配 [mpv-Yaozhi](https://github.com/Yaozhil/mpv-Yaozhi) 使用
+* **播放器内核**：内置与外置均基于 [Yaozhil/mpv-Yaozhi](https://github.com/Yaozhil/mpv-Yaozhi)。软件已自带内置便携内核开箱即用；亦支持自定义指定外部独立 Yaozhi-MPV 路径
 
 ---
 
 ## 下载与安装
 
-进入 [**Releases 发布页面**](https://github.com/Ainanya21/CatPawPlayer/releases) 下载最新安装包：
+进入 [**Releases 发布页面**](https://github.com/Ainanya21/AinanPlayer/releases) 下载最新安装包：
 
 | 文件类型 | 说明 | 适用场景 |
 | :--- | :--- | :--- |
-| **`CatPawPlayer_vX.X.X_Setup.exe`** | 现代图形化安装向导，支持自定义路径、桌面快捷方式 | 推荐大多数用户使用，支持应用内一键在线检测与自动升级 |
-| **`CatPawPlayer_vX.X.X_Portable.zip`** | 绿色免安装解压即用版 | 适合便携 U 盘或快速体验 |
+| **`AinanPlayer_vX.X.X_Setup.exe`** | 现代图形化安装向导，支持自定义路径、桌面快捷方式 | 推荐大多数用户使用，支持应用内一键在线检测与自动升级 |
+| **`AinanPlayer_vX.X.X_Portable.zip`** | 绿色免安装解压即用版 | 适合便携 U 盘或快速体验 |
 
 ---
 
@@ -85,10 +111,33 @@
 
 为了畅快播放网盘 4K 原画资源（如至臻、玩偶、指南等聚合源），请先完成网盘授权：
 
-1. 打开猫爪播放器，点击左侧导航栏 **「全量分类」**。
-2. 站点下拉框选择 **「配置中心」**（或点击网盘片源详情页上的授权引导按钮）。
+1. 打开 AinanPlayer，点击左侧导航栏 **「首页推荐」**。
+2. 顶部站点下拉框选择 **「配置中心」**（或前往「设置」->「网盘授权与配置中心」）。
 3. 使用手机对应网盘 APP（夸克 / UC / 阿里云盘 / 百度网盘 / 115）扫码登录。
 4. 授权成功后，爬虫后端将在播放 4K 资源时自动进行秒级转存并换取高速原画播放直链！
+
+---
+
+## 媒体服务器配置与使用
+
+AinanPlayer 原生深度集成了 **Emby**、**Jellyfin** 与 **Plex** 主流媒体服务器，让私有媒体库与全网聚合资源完美共存：
+
+### 1. 添加媒体服务器
+1. 点击左侧导航栏 **「设置」->「媒体服务器设置」**。
+2. 点击 **「添加媒体服务器」**，选择服务器类型（Emby / Jellyfin / Plex）。
+3. 填写服务器地址（支持局域网 IP 如 `http://192.168.1.100:8096` 或公网域名）、端口与认证凭据：
+   - **Emby / Jellyfin**：支持输入用户名与密码，或直接填入 API Key 密钥。
+   - **Plex**：支持输入服务器地址与 `X-Plex-Token`。
+4. 点击 **「测试连接」**，验证成功后点击保存，应用将自动同步该服务器的媒体库结构与播放进度。
+
+### 2. 丰富图标源与自定义换肤
+* **默认官方图标**：自动根据服务器类型适配官方高清品牌图标。
+* **第三方图标库订阅**：支持导入热门规则图标源（如离歌/恩秀等 Quantumult X / Loon 格式 JSON 规则），一键解析成百上千款各具风格的服标。
+* **图标搜索与手动选择**：在弹出的图标选择器中直接输入关键词（如服名缩写、平台名等）即刻检索并实时预览，轻点即可完成更换。
+
+### 3. 原画直链与聚合并发搜索
+* **直链直通 MPV 硬件加速**：直接流（Direct Stream）播放，无需经过中间服务二次转码损耗，原汁原味呈现 4K HDR、多音轨及特效字幕。
+* **并发极速检索**：在搜索页面发起关键词查询时，所有已启用的媒体服务器将与网络爬虫源同时并发搜索，自建服资源通常 100ms 瞬间秒出，带来极致流畅的聚合体验。
 
 ---
 
@@ -96,26 +145,29 @@
 
 欢迎加入官方社区交流群与频道，获取最新源更新资讯与版本通知：
 
-* **Telegram 官方频道**：[https://t.me/CatPawPlayer](https://t.me/CatPawPlayer)
-* **Telegram 交流群组**：[https://t.me/CatPawPlayerChat](https://t.me/CatPawPlayerChat)
+* **Telegram 官方频道**：[https://t.me/AinanPlayer](https://t.me/AinanPlayer)
+* **Telegram 交流群组**：[https://t.me/AinanPlayerChat](https://t.me/AinanPlayerChat)
 
 ---
 
-## 播放器设置（MPV 硬件加速）
+## 播放器内核与个性化设置
 
-猫爪播放器支持自由选择内置播放器或外部 MPV 播放器：
+AinanPlayer 硬件加速引擎全面基于 **[Yaozhil/mpv-Yaozhi](https://github.com/Yaozhil/mpv-Yaozhi)**，深度支持**内置开箱即用**与**外置自由定制**双模式：
 
-1. 点击左侧导航栏 **「设置」**。
-2. 在 **「播放器设置」** 中：
+1. **默认内置播放**：安装或解压后直接点播影片即可，默认调用内置的 [Yaozhil/mpv-Yaozhi](https://github.com/Yaozhil/mpv-Yaozhi) 便携版硬件加速引擎（`runtime/mpv/mpv.exe`），零配置即可享受丝滑 4K HDR 画质，无需安装任何第三方播放器。
+2. **自定义外部 Yaozhi-MPV**：
+   * 前往左侧导航栏 **「设置」->「播放内核设置」**。
    * 勾选 **「启用外部 MPV 硬件加速播放」**。
-   * 点击 **「浏览...」** 选择您的 `mpv.exe` 路径（如 `D:\Yaozhi-MPV\mpv.exe`）。
-3. 在视频详情页即可使用 MPV 播放，支持硬件解码、记忆断点以及快捷键控制。
+   * 点击 **「浏览...」** 选择您本地自备或定制的 [Yaozhil/mpv-Yaozhi](https://github.com/Yaozhil/mpv-Yaozhi) `mpv.exe` 路径（如 `D:\Yaozhi-MPV\mpv.exe`）。
+   * 点击 **「测试启动播放器」** 验证，随后播放将自动加载您外部的专属着色器滤镜、画质脚本与个性化配置。
+3. **自定义应用图标**：
+   * 在「设置」->「外观设置」中选择 **经典蔚蓝**、**幻彩粉紫**、**曜石银黑** 或 **霓虹暗夜**，即刻同步更换任务栏与标题栏图标。
 
 ---
 
 ## 支持项目
 
-如果 **CatPawPlayer (AinanPlayer)** 有幸改善了你的观影与播放体验，非常欢迎在能力范围内支持开发者。
+如果 **AinanPlayer** 有幸改善了你的观影与播放体验，非常欢迎在能力范围内支持开发者。
 
 | 微信赞赏 (WeChat Pay) | 支付宝收款 (Alipay) |
 | :---: | :---: |
@@ -132,7 +184,6 @@
 * **[mpv](https://mpv.io/) / [mpv-Yaozhi](https://github.com/Yaozhil/mpv-Yaozhi)**：高性能跨平台视频渲染器与硬件加速解码核心，为本项目提供极致的 4K HDR、杜比视界及 120FPS 观影支持。
 * **[WinUI 3](https://github.com/microsoft/WindowsAppSDK) / [Windows App SDK](https://learn.microsoft.com/windows/apps/windows-app-sdk/)**：微软现代 Windows 原生桌面 Fluent 2 视觉体系与 UI 框架。
 * **[CatVodSpider / TVBox 协议生态](https://github.com/)**：开放影视爬虫与数据解析协议生态，提供强大的多源检索与视频解析规范。
-* **[hls.js](https://github.com/video-dev/hls.js/)**：原生流媒体分片传输与 HLS / m3u8 离线解码引擎。
 * **[Fastify](https://fastify.dev/) / [Node.js](https://nodejs.org/)**：高性能异步爬虫调度与微服务通信中间件。
 * **[Newtonsoft.Json](https://www.newtonsoft.com/json)**：.NET 业界标准的 JSON 序列化与数据处理库。
 
@@ -140,7 +191,7 @@
 
 ## 免责声明
 
-1. **纯本地工具属性**：**CatPawPlayer (AinanPlayer)** 仅为一款基于 WinUI 3 与开源多媒体内核构建的本地音视频播放工具与接口解析客户端，软件本体**不提供、不存储、不发布、不传播**任何音频、视频、字幕或图片资源，亦不架设任何媒体流服务器。
+1. **纯本地工具属性**：**AinanPlayer** 仅为一款基于 WinUI 3 与开源多媒体内核构建的本地音视频播放工具与接口解析客户端，软件本体**不提供、不存储、不发布、不传播**任何音频、视频、字幕或图片资源，亦不架设任何媒体流服务器。
 2. **数据源免责**：软件内所有展示的订阅源、站点规则、网盘转存服务及视频播放链接均由使用者**自行配置、自定义导入或来源于第三方公开网络接口**。开发者不对任何第三方接口与内容的合法性、真实性、准确性、有效性或可用性承担任何直接或连带法律责任。
 3. **合法合规使用**：本项目仅供计算机技术研究、编程学习与多媒体解码交流使用。请广大使用者严格遵守所在国家与地区的法律法规，尊重原创与知识产权。严禁将本软件用于任何形式的商业盈利、非法传播或侵权行为。
 4. **版权保护**：若任何第三方机构或个人认为用户自行导入的第三方源侵犯了其合法权益，请依法向对应网络内容的源服务提供商或接口维护者提出维权主张。
